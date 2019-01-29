@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onPostCreate(@Nullable Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
         createUser();
+
         getUser();
         mDataManager.saveAccessToken("ASDR12443JFDJF43543J543H3K543");
 
